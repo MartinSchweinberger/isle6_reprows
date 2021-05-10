@@ -293,6 +293,17 @@ Then, we go to our github page and create a new GitHub repository (repo) that we
 Once you have created a new GitHub repo, we need to connect this repo to our computer. To do this, we need to *clone* the repo which we do by clicking on the green `Code` icon. When you click on the green `Code` icon, a dropdown menu appears and you copy the url in the section `clone with HTTPS`. 
 
 
+```{r init_git, eval = F}
+# initiate the upstream tracking of the project on the GitHub repo
+git remote add origin https://github.com/MartinSchweinberger/isle6_reprows.git
+
+# pull all files from the GitHub repo (typically just readme, license, gitignore)
+git pull origin master
+
+# set up GitHub repo to track changes on local machine
+git push -u origin master
+
+```
 
 
 ## Solving path issues: here {-}
