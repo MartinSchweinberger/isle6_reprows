@@ -1,5 +1,5 @@
 ---
-title: "ISLE 6 workshop: Data Management, Version Control, and Reproducibility"
+title: "ISLE 6 workshop: Replication and Reproducibility in English Corpus Linguistics"
 author: "Martin Schweinberger"
 date: "`r format(Sys.time(), '%Y-%m-%d')`"
 output:
@@ -15,11 +15,21 @@ knitr::include_graphics("https://slcladal.github.io/images/isle6.png")
 
 # Introduction{-}
 
-This document introduces basic data management techniques, version control measures, and issues relating to reproducible research. The entire R markdown document for this tutorial can be downloaded [here](https://slcladal.github.io/repro.html). [A more detailed introduction to data management, version control, and reproducible research practices](https://slcladal.github.io/repro.html) can be found on the website of the *[Language Technology and Data Analysis Laboratory (LADAL)](https://slcladal.github.io/index.html)*. 
+This document contains the materials for the workshop *Replication and Reproducibility in English Corpus Linguistics* organized by Martin Schweinberger and Joseph Flanagan at the 6^th^ meeting of the *International Society for the Linguistics of English* (ISLE6) hosted by the University of Eastern Finland. The workshop is held on June 2, 2021; ISLE6 takes place between June 2 and June 5, 2021.
 
-In data science or when working with data more generally, issues relating to organizing files and folders, managing data and projects, avoiding data loss, and efficient work flows are essential. The idea behind this tutorial is to address this issue and provide advice on how to handle data and creating efficient workflows. 
+The workshop introduces basic data management techniques, version control measures, and issues relating to reproducible research. The entire R markdown document for this workshop session can be downloaded [here](https://slcladal.github.io/isle6_reprows.html). The GitHub repo for this workshop can be found [here](https://github.com/MartinSchweinberger/isle6_reprows). [A more detailed introduction to data management, version control, and reproducible research practices](https://slcladal.github.io/repro.html) can be found on the website of the *[Language Technology and Data Analysis Laboratory (LADAL)](https://slcladal.github.io/index.html)*. Some of the contents of this tutorial build on Amanda Miotto's [Reproducible Reseach Things](https://github.com/amandamiotto/Reproducible-Research-Things). 
 
-Some of the contents of this tutorial build on Amanda Miotto's [Reproducible Reseach Things](https://github.com/amandamiotto/Reproducible-Research-Things). 
+When working with any sort of data on your computer, issues relating to organizing files and folders, managing data and projects, avoiding data loss, and efficient work flows are essential. The idea behind this workshop section is to address this issue and to provide advice on how to handle data and creating efficient workflows that will help you (and your team) in your research. 
+
+This part of the workshop consists out of 2 parts:
+
+1. Data Management   
+This part of the workshop focuses on general principles that help to organize your data and help maintain efficient workflows.
+
+2. Optimizing workflows in RStudio   
+This part of the workshop focuses on how to optimize your workflows in RStudio and how to create reproducible and robust data processing and analysis chains. 
+
+As this workshop is introductory, we will only highlight the most basic ways and tools that you can use to improve your workflows and make them reproducible. We cannot focus on any of the tools in great detail as we want to cover as much ground as possible.  
 
 # Data Management
 
@@ -392,13 +402,13 @@ randomnumbers4
 
 # Citation & Session Info {-}
 
-Schweinberger, Martin. `r format(Sys.time(), '%Y')`. *ISLE 6 workshop: Data Management, Version Control, and Reproducibility*. Brisbane: The University of Queensland. url: https://slcladal.github.io/repro.html (Version `r format(Sys.time(), '%Y.%m.%d')`).
+Schweinberger, Martin. `r format(Sys.time(), '%Y')`. *ISLE 6 workshop: Replication and Reproducibility in English Corpus Linguistics*. Brisbane: The University of Queensland. url: https://slcladal.github.io/isle6_reprows.html (Version `r format(Sys.time(), '%Y.%m.%d')`).
 
 ```
 @manual{schweinberger`r format(Sys.time(), '%Y')`repro,
   author = {Schweinberger, Martin},
-  title = {ISLE 6 workshop: Data Management, Version Control, and Reproducibility},
-  note = {https://slcladal.github.io/repro.html},
+  title = {ISLE 6 workshop: Replication and Reproducibility in English Corpus Linguistics},
+  note = {https://slcladal.github.io/isle6_reprows.html},
   year = {`r format(Sys.time(), '%Y')`},
   organization = {The University of Queensland, School of Languages and Cultures},
   address = {Brisbane},
