@@ -294,6 +294,9 @@ Once you have created a new GitHub repo, we need to connect this repo to our com
 
 
 ```{r init_git, eval = F}
+# move to the project directory
+cd D:/Uni/Konferenzen/ISLE/ISLE_2021/isle6_reprows
+
 # initiate the upstream tracking of the project on the GitHub repo
 git remote add origin https://github.com/MartinSchweinberger/isle6_reprows.git
 
